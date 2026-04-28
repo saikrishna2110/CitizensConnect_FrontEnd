@@ -2,15 +2,15 @@ import { useState } from "react";
 import { BrowserRouter, Routes, Route, Link, Navigate } from "react-router-dom";
 
 import Dashboard from "./Dashboard";
-import CitizenDashboard from "./Pages/CitizenDashboard";
-import PoliticianDashboard from "./Pages/PoliticianDashboard";
-import AdminDashboard from "./Pages/AdminDashboard";
-import ModeratorDashboard from "./Pages/ModeratorDashboard";
+import CitizenDashboard from "./pages/CitizenDashboard";
+import PoliticianDashboard from "./pages/PoliticianDashboard";
+import AdminDashboard from "./pages/AdminDashboard";
+import ModeratorDashboard from "./pages/ModeratorDashboard";
 
-import PortalSelector from "./Pages/Auth/PortalSelector";
-import CitizenAuth from "./Pages/Auth/CitizenAuth";
-import PoliticianAuth from "./Pages/Auth/PoliticianAuth";
-import AdminLogin from "./Pages/Auth/AdminLogin";
+import PortalSelector from "./pages/Auth/PortalSelector";
+import CitizenAuth from "./pages/Auth/CitizenAuth";
+import PoliticianAuth from "./pages/Auth/PoliticianAuth";
+import AdminLogin from "./pages/Auth/AdminLogin";
 
 import Representatives from "./Representatives";
 import Updates from "./Updates";
